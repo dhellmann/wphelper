@@ -4,3 +4,5 @@
 
 pbr>=1.0
 python-wordpress-xmlrpc>=2.2
+cliff>=1.14.0
+Markdown>=2.2.1
