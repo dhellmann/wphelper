@@ -1,0 +1,7 @@
+[run]
+branch = True
+source = wphelper
+omit = wphelper/openstack/*
+
+[report]
+ignore-errors = True
