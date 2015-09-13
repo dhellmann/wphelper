@@ -23,7 +23,6 @@ sys.path.insert(0, os.path.abspath('../..'))
 extensions = [
     'sphinx.ext.autodoc',
     #'sphinx.ext.intersphinx',
-    'oslosphinx'
 ]
 
 # autodoc generation is a bit aggressive and a nuisance when doing heavy
@@ -38,7 +37,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'wphelper'
-copyright = u'2013, OpenStack Foundation'
+copyright = u'2015, Doug Hellmann'
 
 # If true, '()' will be appended to :func: etc. cross-reference text.
 add_function_parentheses = True
