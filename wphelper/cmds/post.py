@@ -40,11 +40,11 @@ class Create(base.WithCredentials):
                   encoding=parsed_args.encoding) as f:
             raw_body = f.read()
         formatted_body = markdown.markdown(raw_body)
+        print(formatted_body)
 
         if parsed_args.dry_run:
             print('New %s post "%s":\n' %
                   (parsed_args.status, parsed_args.title))
-            print(formatted_body)
         else:
             post = WordPressPost()
             post.title = parsed_args.title
